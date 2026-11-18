@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>علم النفس الجنائي السوداني — ١٠٠٠ سؤال</title>
+    <meta
+      name="description"
+      content="منصة تعليمية متكاملة لدراسة علم النفس الجنائي في السياق القانوني والاجتماعي السوداني عبر ١٠٠٠ سؤال مقسمة على ٢٠ فرعاً وتعمل بالكامل بدون إنترنت — إعداد يحي سيكولوجي."
+    />
+    <meta name="author" content="يحي سيكولوجي" />
+    <meta property="og:title" content="علم النفس الجنائي السوداني — ١٠٠٠ سؤال" />
+    <meta
+      property="og:description"
+      content="١٠٠٠ سؤال متخصص في علم النفس الجنائي السوداني مقسمة على ٢٠ مجالاً دراسياً، تعمل بدون إنترنت وبواجهة عربية سلسة — إعداد يحي سيكولوجي."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0F2942" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="النفس الجنائي" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Amiri:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('sudan_criminal_psychology_theme_v1');
+          var prefersDark =
+            window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var isDark = saved === 'dark' || (!saved && prefersDark);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            var meta = document.querySelector('meta[name="theme-color"]');
+            if (meta) meta.setAttribute('content', '#0B131E');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8F7F4] text-[#0F2942] dark:bg-[#0B131E] dark:text-[#F1F5F9] antialiased selection:bg-[#0F2942] selection:text-white dark:selection:bg-[#F59E0B] dark:selection:text-[#0B131E]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

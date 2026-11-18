@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0F2942"/>
+  <rect x="44" y="44" width="424" height="424" rx="68" fill="none" stroke="#C59B5F" stroke-width="6" opacity="0.5"/>
+  <!-- Scales of Justice & Mind Crest -->
+  <g fill="none" stroke="#F8F7F4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="256" y1="112" x2="256" y2="388"/>
+    <line x1="176" y1="388" x2="336" y2="388"/>
+    <path d="M132 172 Q256 144 380 172" stroke="#C59B5F" stroke-width="18"/>
+    <!-- Left pan -->
+    <path d="M132 172 L96 276 L168 276 Z" stroke="#F8F7F4" stroke-width="10"/>
+    <path d="M90 276 Q132 320 174 276" fill="#C59B5F" stroke="#C59B5F" stroke-width="8"/>
+    <!-- Right pan -->
+    <path d="M380 172 L344 276 L416 276 Z" stroke="#F8F7F4" stroke-width="10"/>
+    <path d="M338 276 Q380 320 422 276" fill="#C59B5F" stroke="#C59B5F" stroke-width="8"/>
+    <circle cx="256" cy="112" r="14" fill="#C59B5F" stroke="none"/>
+  </g>
+</svg>
